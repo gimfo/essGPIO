@@ -1,5 +1,5 @@
-import RPi.GPIO as GPIO
-GPIO.setmode(GPIO.BCM)
+import RPi.GPIO as GPIO  #librairie
+GPIO.setmode(GPIO.BCM) # mode identification
 configuration=GPIO.getmode()
 print(configuration)
 GPIO.setup(5,GPIO.OUT)
